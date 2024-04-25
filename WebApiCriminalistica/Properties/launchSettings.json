@@ -1,0 +1,39 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:13210",
+      "sslPort": 44318
+    }
+  },
+  "profiles": {
+    "WebApiCriminalistica": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      //local unidad
+      "applicationUrl": "http://192.168.88.225:7056;http://192.168.88.225:5056",
+      //"applicationUrl": "http:// 192.168.88.243:7056;http:// 192.168.88.243:5056",
+      //"applicationUrl": "http:/ /10.125.30.200:7056;http:/ /10.125.30.200:5056",
+      //casa
+      //"applicationUrl": "http:// 192.168.1.111:7056;http:// 192.168.1.111:5056",
+      ////real 
+      //"applicationUrl": "ht tp://10.1 25.31.149:7056;h ttp://10.125.31 .149:5056",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
